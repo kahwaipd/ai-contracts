@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "uri",
+						"type": "string"
+					}
+				],
+				"name": "safeMint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IVirtualPersona.sol": "IVirtualPersona"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IVirtualPersona.sol": {
+			"keccak256": "0x30102b51b9d25a605326257d4265fb82ac2183e0ba20c0372c63ab1054539106",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d66111acb01708d7add4fb087cd08b941e71b5aab51cebc0d2129b6cd868114d",
+				"dweb:/ipfs/QmYPV9Lgu1Ptrr8aZ37nm6pS4PXQwM1VJBZCjNn4Ewojmn"
+			]
+		}
+	},
+	"version": 1
+}
